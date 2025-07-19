@@ -32,8 +32,8 @@ icon.addEventListener("click" ,() =>{
 
 explore.addEventListener("click" ,() =>{
     startvalue ++;
-    count.innerHTML=startvalue
-    countm.innerHTML=startvalue
+    count.innerHTML="(" + startvalue + ")"
+    countm.innerHTML= `(${startvalue})`
 
     // menu.classList.toggle("hidden")
 })
